@@ -1,7 +1,7 @@
 #!/usr/bin/env nextflow
-params.fasta = "$projectDir/data/test_golden_path.fa"
-params.reads = "$projectDir/data/test_reads.fq"
-params.bed = "$projectDir/data/test_coords.bed"
+params.fasta = "$projectDir/data/draft_assembly.fa"
+params.reads = "$projectDir/data/long_reads.fq"
+params.bed = "$projectDir/data/polishing_coords.bed"
 params.prefix = "polished_assembly"
 params.output_file = "polished_assembly.fa"
 params.length = 15
