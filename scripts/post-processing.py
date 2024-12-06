@@ -3,7 +3,7 @@ import argparse
 import btllib
 
 def parse_args():
-    """parses args passed through command line"""
+    """parses args passed through the command line"""
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "-f", "--fasta", help="target file in fasta format", type=str, required=True
